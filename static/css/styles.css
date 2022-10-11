@@ -1,0 +1,110 @@
+/* Body Elements */
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin: 20
+}
+
+img {
+    border-radius: 30%;
+}
+
+
+/* Classes */
+
+.main-background {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    display: block;
+    background-image: url('../images/mount.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    display: flex;
+    align-items: center;
+}
+
+.navbar {
+    padding: 2% 12% 0 10%;
+    position: absolute;
+    width: 100%;
+}
+
+.nav-item {
+    padding: 0 1%
+}
+
+/* Font color of navbar items */
+.nav-link {
+    color: #abb3b2;
+}
+
+/* Font color of Navbar brand */
+.navbar-brand {
+    color: '#abb3b2';
+}
+
+.title {
+    margin: 25vh 38vw 35vh;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size 2em;
+}
+
+
+/* Portfolio Page */
+#portfolio {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    display: block;
+    background-image: url('../images/projects.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#about {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    display: block;
+    background-image: url('../images/about.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#contact {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    display: block;
+    background-image: url('../images/contact.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: static;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio-title {
+    width: 100vw;
+}
+
+.copyright {
+    height: 10vh;
+    width: 100vw;
+    max-width: 100vw;
+}
